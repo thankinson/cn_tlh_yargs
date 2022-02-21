@@ -9,7 +9,7 @@ class Movie {
         movieArr.push(this);
         return movieArr
     };
-    list() {
+    list() { // ties to class not obj -- static 
         return movieArr
     };
 };
